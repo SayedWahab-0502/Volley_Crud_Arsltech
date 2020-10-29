@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST Request"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"></TextView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:hintTextColor="@android:color/black">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textColor="@android:color/black"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:backgroundTint="@android:color/black"
+            android:id="@+id/name_id"></EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:hintTextColor="@android:color/black">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:textColor="@android:color/black"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email_id"
+            android:backgroundTint="@android:color/black"></EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:hintTextColor="@android:color/black"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textColor="@android:color/black"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password_id"
+            android:backgroundTint="@android:color/black"></EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Data"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@color/colorblue"
+        android:layout_marginTop="30dp"
+        android:id="@+id/submit_id">
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>
